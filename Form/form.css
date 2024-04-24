@@ -1,0 +1,43 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my_form{
+    width: 440px;
+    height: 440px;
+    background-color: white;
+    margin: 80px auto;
+    padding: 30px;
+    border: 8px solid lightgray;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 40px;
+}
+.txt{
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    background-color: lavender;
+    border: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn{
+    width: 420px;
+    height: 60px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+.my_form:hover{
+    background-color: aquamarine;
+}
